@@ -1,0 +1,243 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/************INDEX************/
+
+#hoofdpagina{
+    background-image: url(images/background.png);
+    background-size: cover;
+}
+
+h1 {
+    position: absolute;
+    left: 500px;
+    top: 0px;
+    font-size: 4em;
+}
+
+footer {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    text-align: left;
+    background-color: white;
+    padding: 5px;
+}
+
+#speel_button{
+    background-color: white;
+    height: 500px;
+    width: 1200px;
+    border: 1px solid black;
+    font-size: 2em;
+    position: absolute;
+    left: 170px;
+    top: 150px;
+}
+
+.dier {
+    width: 150px;
+}
+
+.huis {
+    width: 300px;
+}
+
+#uil {
+    position: absolute;
+    left: 230px;
+    bottom: 350px;
+    width: 120px;
+}
+
+#huis_uil {
+    position: absolute;
+    left: 50px;
+    bottom: 200px;
+    width: 400px;
+}
+
+#vos {
+    position: absolute;
+    left: 550px;
+    bottom: 200px;
+    width: 180px;
+}
+
+#huis_vos {
+    position: absolute;
+    left: 580px;
+    bottom: 200px;
+}
+
+#rendier {
+    position: absolute;
+    left: 1200px;
+    bottom: 220px;
+}
+
+#huis_rendier {
+    position: absolute;
+    left: 1050px;
+    bottom: 220px;
+}
+
+
+
+/******** RENDIERPAGINA ********/
+
+#rendierpagina{
+    background-image: url(images/background_rendier.jpg);
+    background-size: cover;
+}
+
+#rendier2{
+    width: 300px;
+    position: absolute;
+    left: 200px;
+    bottom: 140px;
+}
+
+#tv{
+    position: absolute;
+    left: 1029px;
+    top: 428px;
+    width: 290px;
+}
+
+#tv_zender{
+    position: absolute;
+    right: 225px;
+    bottom: 170px;
+    width: 275px;
+}
+
+.tv_uit {
+    opacity: 0;
+}
+
+#lamp{
+    position: absolute;
+    left: 55px;
+    bottom: 26px;
+    height: 398px;
+}
+
+.donker{
+    filter: brightness(20%);
+}
+
+.exit{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 200px;
+}
+
+
+/******** VOSPAGINA *********/
+
+#vospagina{
+    background-image: url(images/background_vos.jpg);
+    background-size: cover;
+}
+
+#vos2{
+    width: 250px;
+    position: absolute;
+    left: 650px;
+    bottom: 130px;
+}
+
+#progressbar{
+    position: absolute;
+    left: 900px;
+    bottom: 450px;
+}
+
+.spring{
+    animation: jump 0.5s forwards;
+}
+
+@keyframes jump{
+    0%   { transform: translateY(0)}
+    50% { transform: translateY(-20vh)}
+    100% { transform: translateY(0)}
+}
+
+.slapen{
+    transform: rotate(80deg) translateY(100px) translateX(50px);
+    transform-origin: bottom right;
+}
+
+#bank{
+    position: absolute;
+    left: 590px;
+    bottom: 50px;
+    width: 590px;
+}
+
+
+
+/******* UIL PAGINA *******/
+
+#uilpagina{
+    background-image: url(images/background_uil.jpg);
+    background-size: cover;
+}
+
+#uil2{
+    width: 200px;
+    position: absolute;
+    left: 820px;
+    bottom: 310px;
+}
+
+#tekst_uil{
+    position:absolute;
+    top: 50px;
+    left: 650px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+
+#naam_vragen{
+    position:absolute;
+    top: 150px;
+    left: 650px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+
+#boekenplank{
+    position: absolute;
+    right: 375px;
+    height: 450px;
+}
+
+#boekenkast_uil{
+    background-color: rosybrown;
+}
+
+#boekbladeren {
+    padding: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#boekenkast_nummering{
+    text-align: center;
+    color: #fff;
+}
+
+button{
+    height: 15em;
+    border: 0px;
+}
